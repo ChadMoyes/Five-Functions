@@ -22,9 +22,9 @@ def first_odds():
 #number of a given list. The first line of the code has been defined as below.
 
 def max_num_in_list(a_list):
-    """We will find out how many people are going to hangout"""
-    a_list = ['John', 'Cameron', 'Jio', 'Cannon', 'Ryan']
-    return("There are " +str(len(a_list))+ " people going to hangout")
+    """We will find out the max number in a list of numbers"""
+    a_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    return(sum(a_list))
 print(max_num_in_list('a_list'))
 print("\n")
 
